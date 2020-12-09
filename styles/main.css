@@ -737,6 +737,7 @@ footer .down_item1 {
 
 
 .footer_inner_item2 {
+        width: 1200px;
         margin-top: 123px;
         display: -webkit-box;
         display: -webkit-flex;
@@ -746,66 +747,35 @@ footer .down_item1 {
         -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-        margin-left: 100px;
+        justify-content: space-between;
         z-index: 1;
         position: relative
 }
 
-.footer_inner_item2 .footer_block {
-        padding: 41px;
-        border-right: 1px solid #73A7D7;
-
-}
-
-.footer_inner_item2 .footer_block:hover {
-        background: #4E86BB;
-        -webkit-transition: all ease 0.5s;
-        -o-transition: all ease 0.5s;
-        -moz-transition: all ease 0.5s;
-        transition: all ease 0.5s;
-        cursor: pointer;
-
-
-
-}
-
-
-.footer_inner_item2 .footer_block:nth-child(4) {
-        border-right: 1px solid transparent;
-        border-bottom: 1px solid #73A7D7;
-}
-
-.footer_inner_item2 .footer_block:nth-child(8) {
-        border-right: 1px solid transparent;
-        text-align: center;
-        width: 150px;
-}
-
-
-
-.footer_inner_item2 .footer_block:nth-child(1) {
-        border-bottom: 1px solid #73A7D7;
-}
-
-.footer_inner_item2 .footer_block:nth-child(2) {
-        border-bottom: 1px solid #73A7D7;
-}
-
-
-.footer_inner_item2 .footer_block:nth-child(3) {
-        border-bottom: 1px solid #73A7D7;
-}
-
-
-
-.footer_inner_item2 .footer_block h4 {
+.footer_inner_item2 a {
+        width: 300px;
+        padding: 42px;
         font-size: 20px;
         line-height: 46px;
         letter-spacing: 0.02em;
-        color: #FFFFFF;
+        color: #F2F2F2;
+        box-sizing: border-box;
+        text-align: center;
 }
 
 
+.footer_inner_item2 a:hover {
+        background-color: #4E86BB;
+        transition: all ease 0.5s;
+}
+
+.birinchi {
+        border-bottom: 1px solid #9CC1E3;
+}
+
+.ong {
+        border-right: 1px solid #9CC1E3;
+}
 
 .footer_down {
         margin-top: 250px;
@@ -850,10 +820,8 @@ footer .down_item1 {
         -ms-flex-align: center;
         align-items: center;
         border-bottom: 1px solid #4570A3;
-
         padding: 0 0 60px 0;
         width: 86%;
-
 }
 
 .down_item1 h3 {
